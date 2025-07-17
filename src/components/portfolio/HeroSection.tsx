@@ -95,7 +95,7 @@ export const HeroSection = () => {
               <div className="relative">
                 {/* Placeholder for profile picture - replace with your actual image */}
                 <div className="w-64 h-64 bg-gradient-secondary rounded-full flex items-center justify-center text-6xl font-bold text-white">
-                  YN
+                  RS
                 </div>
                 {/* Decorative ring around image */}
                 <div className="absolute inset-0 rounded-full border-4 border-primary/20 animate-pulse"></div>
