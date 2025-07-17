@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Download, Github, Linkedin, Mail } from "lucide-react";
+import { ThemeToggle } from "@/components/ui/theme-toggle";
 
 /**
  * Hero Section Component
@@ -22,6 +23,11 @@ import { Download, Github, Linkedin, Mail } from "lucide-react";
 export const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center px-4 py-20">
+      {/* Theme toggle in top right corner */}
+      <div className="absolute top-6 right-6 z-20">
+        <ThemeToggle />
+      </div>
+      
       {/* Background gradient overlay */}
       <div className="absolute inset-0 bg-gradient-primary opacity-10"></div>
       
