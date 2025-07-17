@@ -8,47 +8,49 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Blue and Purple Theme for MLOps Portfolio */
-    --background: 220 26% 98%;
-    --foreground: 220 39% 11%;
+    /* Sophisticated MLOps Portfolio Color Scheme */
+    --background: 210 20% 98%;
+    --foreground: 215 25% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 220 39% 11%;
+    --card-foreground: 215 25% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 39% 11%;
+    --popover-foreground: 215 25% 15%;
 
-    /* Primary: Deep Blue */
-    --primary: 215 90% 35%;
+    /* Primary: Deep Tech Teal */
+    --primary: 195 85% 25%;
     --primary-foreground: 0 0% 98%;
-    --primary-glow: 215 90% 50%;
+    --primary-glow: 195 75% 35%;
 
-    /* Secondary: Rich Purple */
-    --secondary: 262 80% 45%;
+    /* Secondary: Professional Purple */
+    --secondary: 270 60% 35%;
     --secondary-foreground: 0 0% 98%;
 
-    --muted: 220 14% 96%;
-    --muted-foreground: 220 8.9% 46%;
+    --muted: 210 15% 95%;
+    --muted-foreground: 215 15% 45%;
 
-    /* Accent: Lighter Purple */
-    --accent: 262 60% 85%;
-    --accent-foreground: 262 80% 25%;
+    /* Accent: Innovation Teal */
+    --accent: 185 70% 85%;
+    --accent-foreground: 195 85% 25%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 215 90% 35%;
+    --border: 210 12% 90%;
+    --input: 210 12% 90%;
+    --ring: 195 85% 25%;
 
-    /* Custom Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(215 90% 35%), hsl(262 80% 45%));
-    --gradient-secondary: linear-gradient(180deg, hsl(215 90% 50%), hsl(262 80% 60%));
-    --gradient-subtle: linear-gradient(135deg, hsl(220 26% 98%), hsl(262 60% 95%));
+    /* Custom Gradients - MLOps Inspired */
+    --gradient-primary: linear-gradient(135deg, hsl(195 85% 25%), hsl(270 60% 35%));
+    --gradient-secondary: linear-gradient(180deg, hsl(195 75% 35%), hsl(270 50% 45%));
+    --gradient-subtle: linear-gradient(135deg, hsl(210 20% 98%), hsl(185 30% 95%));
+    --gradient-hero: linear-gradient(135deg, hsl(195 85% 25%), hsl(185 70% 30%), hsl(270 60% 35%));
     
-    /* Shadows */
-    --shadow-elegant: 0 10px 30px -10px hsl(215 90% 35% / 0.3);
-    --shadow-glow: 0 0 40px hsl(215 90% 50% / 0.2);
+    /* Shadows - Tech Professional */
+    --shadow-elegant: 0 10px 30px -10px hsl(195 85% 25% / 0.25);
+    --shadow-glow: 0 0 40px hsl(195 75% 35% / 0.15);
+    --shadow-card: 0 4px 20px -4px hsl(195 85% 25% / 0.1);
 
     --radius: 0.5rem;
 
