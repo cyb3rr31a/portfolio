@@ -76,12 +76,16 @@ export const HeroSection = () => {
                   <Github className="h-5 w-5" />
                 </Button>
               </a>
-              <Button variant="ghost" size="icon" className="hover:text-primary">
-                <Linkedin className="h-5 w-5" />
-              </Button>
-              <Button variant="ghost" size="icon" className="hover:text-primary">
-                <Mail className="h-5 w-5" />
-              </Button>
+              <a href="https://www.linkedin.com/in/rebecca-shirievo/" target="_blank" rel="noopener noreferrer">
+                <Button variant="ghost" size="icon" className="hover:text-primary">
+                  <Linkedin className="h-5 w-5" />
+                </Button>
+              </a>
+              <a href="rebeccashirievo@gmail.com" target="_blank" rel="noopener noreferrer">
+                <Button variant="ghost" size="icon" className="hover:text-primary">
+                  <Mail className="h-5 w-5" />
+                </Button>
+              </a>
             </div>
           </div>
           
