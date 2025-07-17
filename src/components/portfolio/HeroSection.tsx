@@ -38,7 +38,7 @@ export const HeroSection = () => {
           <div className="text-center lg:text-left space-y-8">
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-6xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-                Your Name Here
+                Rebecca Shirievo
               </h1>
               <h2 className="text-2xl lg:text-3xl font-semibold text-primary">
                 MLOps Engineer
@@ -71,9 +71,11 @@ export const HeroSection = () => {
             
             {/* Social links */}
             <div className="flex gap-4 justify-center lg:justify-start">
-              <Button variant="ghost" size="icon" className="hover:text-primary">
-                <Github className="h-5 w-5" />
-              </Button>
+              <a href="https://github.com/cyb3rr31a" target="_blank" rel="noopener noreferrer">
+                <Button variant="ghost" size="icon" className="hover:text-primary">
+                  <Github className="h-5 w-5" />
+                </Button>
+              </a>
               <Button variant="ghost" size="icon" className="hover:text-primary">
                 <Linkedin className="h-5 w-5" />
               </Button>
