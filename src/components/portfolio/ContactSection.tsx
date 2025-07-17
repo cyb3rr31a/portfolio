@@ -25,19 +25,19 @@ export const ContactSection = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "your.email@example.com", // Replace with your actual email
-      href: "mailto:your.email@example.com"
+      value: "rebeccashirievo@gmail.com",
+      href: "mailto:rebeccashirievo@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567", // Replace with your actual phone
-      href: "tel:+15551234567"
+      value: "(+254)798885476",
+      href: "tel:+254798885476"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "Your City, State", // Replace with your actual location
+      value: "Nairobi, Kenya", // Replace with your actual location
       href: "#"
     }
   ];
@@ -46,25 +46,25 @@ export const ContactSection = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/yourusername", // Replace with your GitHub
+      href: "https://github.com/cyb3rr31a",
       color: "hover:text-gray-900"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/yourprofile", // Replace with your LinkedIn
+      href: "https://linkedin.com/in/rebecca-shirievo",
       color: "hover:text-blue-600"
     },
     {
       icon: Twitter,
       label: "Twitter",
-      href: "https://twitter.com/yourusername", // Replace with your Twitter
+      href: "https://twitter.com/rebeccashirievo",
       color: "hover:text-blue-400"
     },
     {
       icon: Mail,
       label: "Email",
-      href: "mailto:your.email@example.com", // Replace with your email
+      href: "mailto:rebeccashirievo@gmail.com", // Replace with your email
       color: "hover:text-red-500"
     }
   ];

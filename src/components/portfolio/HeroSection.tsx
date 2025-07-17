@@ -81,7 +81,7 @@ export const HeroSection = () => {
                   <Linkedin className="h-5 w-5" />
                 </Button>
               </a>
-              <a href="rebeccashirievo@gmail.com" target="_blank" rel="noopener noreferrer">
+              <a href="mailto:rebeccashirievo@gmail.com" target="_blank" rel="noopener noreferrer">
                 <Button variant="ghost" size="icon" className="hover:text-primary">
                   <Mail className="h-5 w-5" />
                 </Button>
