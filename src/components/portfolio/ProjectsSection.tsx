@@ -171,10 +171,12 @@ export const ProjectsSection = () => {
           <p className="text-muted-foreground mb-4">
             Want to see more projects or collaborate on something interesting?
           </p>
-          <Button size="lg" className="bg-gradient-primary hover:shadow-glow transition-all duration-300">
-            <Github className="mr-2 h-5 w-5" />
-            View All on GitHub
-          </Button>
+          <a href="https://github.com/cyb3rr31a" target="_blank" rel="noopener noreferrer">
+            <Button size="lg" className="bg-gradient-primary hover:shadow-glow transition-all duration-300">
+              <Github className="mr-2 h-5 w-5" />
+              View All on GitHub
+            </Button>
+          </a>
         </div>
       </div>
     </section>
